@@ -1,7 +1,7 @@
 process.title = 'odr-proxy';
 
 // config
-const odrDabMuxIP = '10.0.3.217';
+const odrDabMuxIP = '127.0.0.1';
 const webSocketsServerPort = 4500;
 
 var zmq = require('zeromq')
